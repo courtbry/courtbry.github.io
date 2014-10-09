@@ -1,15 +1,38 @@
 body {
-
-  font-family: 'lucida sans unicode', lucida grande, sans-serif;
+  font-family: 'Cabin', sans-serif;
   font-weight: 300;
-  background: url(homepage.jpg);
+  background: url(Kellogg.jpg)no-repeat;
+  background-size: 1390px;
+                background-position: center center;
+                background-attachment: fixed;
 }
+h1 {
+  font-size: 60px;
+  font-style: italic;
+  color: purple;
+  text-align: center;
+}
+
+p, li{
+  line-height: 26px;
+}
+
 #wrapper {
-  width: 960px;
-  margin: 20px auto;
+                background-color: white;
+                width: 960px;
+                margin: 20px auto;
+                border: 3px solid purple;
+                padding: 20px;
+                opacity: 0.7;
 }
+
 img{
                 border: 1px solid grey;
                 border-radius: 9999999px;
                 box-shadow: 10px 10px 10px grey;
 }
+table, th, td {
+   border: 1px solid black;
+   padding: 2px;
+}
+
