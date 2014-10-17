@@ -1,8 +1,9 @@
 body {
   font-family: 'Cabin', sans-serif;
   font-weight: 300;
-  background: url(wood.jpg)no-repeat;
-  background-size: 1390px;
+ background-image: url(wood.jpg);
+background-size: cover;
+
                 background-position: center center;
                 background-attachment: fixed;
 }
