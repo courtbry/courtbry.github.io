@@ -1,16 +1,12 @@
-
-jumbotron h1{
-  color:black;
-}
 body {
   font-family: 'Cabin', sans-serif;
   font-weight: 300;
-  background: url(purpletexture.jpg) repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  color:white;
-}
+ background-image: url(purpletexture.jpg);
+background-size: cover;
 
+                background-position: center center;
+                background-attachment: fixed;
+}
 h1 {
   font-size: 50px;
   color: purple;
@@ -22,11 +18,15 @@ li{
 }
 
 li, h1, h2, h4{
-  line-height: 40px;
+  line-height: 26px;
   color:white;
-  font-family: lucida, lucida grande, sans-serif;
+  font-family: 'Cabin', sans-serif;
 }
 
+}
+h1{
+  color:white;
+}
 
 #wrapper {
   width: 960px;
